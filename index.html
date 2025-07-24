@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<link rel="stylesheet" href="style.css">
+<title>読み上げテスト - Aivis Cloud API</title></head><body>
+<h1>読み上げテスト - Aivis Cloud API</h1>
+
+<main>
+APIKEY <input type=text id=in_apikey><br>
+MODEL <select id=sel_license></select> <select id=sel_model></select> <input type=text id=in_model><br>
+<div id=div_model></div>
+
+<textarea id=ta>
+</textarea><br>
+<button id=btn_start>読み上げ</button>
+<button id=btn_stop>一時停止</button>
+<button id=btn_end>停止</button>
+<button id=btn_download>ダウンロード</button>
+</main>
+
+<footer>
+API: <a href=https://aivis-project.com/>Aivis Project | AivisSpeech でかんたんに感情豊かな音声合成、使ってみませんか？</a><br>
+VOICE MODEL: <a href=https://hub.aivis-project.com/>AivisHub - AivisSpeechで使えるAI音声合成モデル共有サイト</a><br>
+<a href=https://github.com/code4fukui/aivis-api/>src on GitHub</a><br>
+</footer>
+
+<script type="module">
+import { speech, fetchAudio, getDefaultModel } from "./AivisSpeech.js";
+import { downloadFile } from "https://js.sabae.cc/downloadFile.js";
+import { ArrayUtil } from "https://js.sabae.cc/ArrayUtil.js";
+
+let audio = null;
+const stopAudio = () => {
+  if (audio) {
+    audio.pause();
+    audio = null;
+  }
+};
+
+const models = await (await fetch("./models.json")).json();
+
+const licenses = ArrayUtil.toUnique(models.map(i => i.model_files[0].license_type));
+const opt = document.createElement("option");
+opt.textContent = "すべてのライセンス";
+opt.value = "";
+sel_license.appendChild(opt);
+for (const l of licenses) {
+  const opt = document.createElement("option");
+  opt.textContent = l;
+  sel_license.appendChild(opt);
+}
+
+console.log(models, models.length);
+const showModels = () => {
+  sel_model.innerHTML = "";
+  const license = sel_license.value;
+  const mm = sel_license.value ? models.filter(i => i.model_files[0].license_type == license) : models;
+  for (const m of mm) {
+    const opt = document.createElement("option");
+    const f = m.model_files[0];
+    opt.textContent = m.name + (license ? "" : " (" + f.license_type + ")");
+    opt.value = m.aivm_model_uuid;
+    sel_model.appendChild(opt);
+  }
+};
+showModels();
+sel_model.onchange = () => {
+  in_model.value = sel_model.value;
+  const m = models.find(i => i.aivm_model_uuid == sel_model.value);
+  div_model.textContent = m.description;
+  const f = m.model_files[0];
+  //in_license.value = f.license_type + " " + (f.license_text || "");
+  console.log(m);
+  stopAudio();
+  if (ta.value == "") ta.value = m.description;
+};
+sel_model.value = getDefaultModel();
+sel_model.onchange();
+
+sel_license.onchange = () => {
+  showModels();
+};
+
+in_apikey.value = localStorage.getItem("aivis_apikey") || "";
+const getAPIKey = () => {
+  const apikey = in_apikey.value;
+  localStorage.setItem("aivis_apikey", apikey);
+  return apikey;
+};
+
+ta.onchange = in_model.onchange = in_apikey.onchange = () => {
+  stopAudio();
+};
+
+btn_stop.onclick = () => {
+  if (audio) {
+    audio.pause();
+  }
+};
+btn_end.onclick = () => {
+  if (audio) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+};
+
+btn_start.onclick = async () => {
+  if (audio) {
+    audio.play();
+    return;
+  }
+  stopAudio();
+  const text = ta.value;
+  const modeluuid = in_model.value;
+  audio = await speech(text, getAPIKey(), modeluuid);
+};
+
+btn_download.onclick = async () => {
+  const text = ta.value;
+  const modeluuid = in_model.value;
+  const res = await fetchAudio(text, getAPIKey(), modeluuid);
+  const bin = await res.bytes();
+  downloadFile("speech.mp3", bin);
+};
+</script>
+
+<style>
+input {
+  width: 25em;
+  margin: .2em 0;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 20em;
+  padding: .4em;
+}
+#div_model {
+  border: 1px solid black;
+  padding: .2em;
+  margin: .4em 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+a {
+  color: gray;
+}
+</style>
+
+</body></html>

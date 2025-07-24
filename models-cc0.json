@@ -1,0 +1,607 @@
+[
+  {
+    "aivm_model_uuid": "b79c40e4-8a5e-4f20-802c-2c0eba2f0983",
+    "user": {
+      "handle": "yuusyaasisutanto",
+      "name": "ゆうしゃアシスタント",
+      "description": "東京都竹輪部のアイツです。",
+      "icon_url": "https://assets.aivis-project.com/account-icons/da4907c6-0830-4081-9176-ad892de639f8.jpg",
+      "account_type": "User",
+      "account_status": "Active",
+      "social_links": [
+        {
+          "type": "Twitter",
+          "url": "https://x.com/yuusyaasisutant"
+        },
+        {
+          "type": "Niconico",
+          "url": "https://www.nicovideo.jp/user/38502114"
+        },
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/channel/UCoa-Jkd60bLcXDkTlwkcbRA"
+        },
+        {
+          "type": "Website",
+          "url": "https://note.com/yuusyaasisutanto"
+        }
+      ]
+    },
+    "name": "結亜ナル",
+    "description": "オナラとケツを叩く音から産まれた合成音声です。\nWTFPLライセンス、及びにそれに類するパブリックドメインの下に配布されております。\n同ライセンスの下、著作権放棄された立ち絵も配布中です。\n興味がございましたら検索して頂ければ幸いです。",
+    "detailed_description": "",
+    "category": "OriginalCharacter",
+    "voice_timbre": "YouthfulMale",
+    "visibility": "Public",
+    "is_tag_locked": false,
+    "total_download_count": 106,
+    "model_files": [
+      {
+        "aivm_model_uuid": "b79c40e4-8a5e-4f20-802c-2c0eba2f0983",
+        "manifest_version": "1.0",
+        "name": "結亜ナル",
+        "description": "オナラとケツを叩く音から産まれた合成音声です。\nWTFPLライセンス、及びにそれに類するパブリックドメインの下に配布されております。\n同ライセンスの下、著作権放棄された立ち絵も配布中です。\n興味がございましたら検索して頂ければ幸いです。",
+        "creators": [
+          "yuusyaasisutanto"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVM",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "Safetensors",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "0.2.0",
+        "file_size": 252401550,
+        "checksum": "1545372a7158c9a88381ed9585d893820911dfc3ef38a58796b94189516e6ef7",
+        "download_count": 0,
+        "created_at": "2025-06-01T21:51:24.436055+09:00",
+        "updated_at": "2025-06-01T21:51:36.388363+09:00"
+      },
+      {
+        "aivm_model_uuid": "b79c40e4-8a5e-4f20-802c-2c0eba2f0983",
+        "manifest_version": "1.0",
+        "name": "結亜ナル",
+        "description": "オナラとケツを叩く音から産まれた合成音声です。\nWTFPLライセンス、及びにそれに類するパブリックドメインの下に配布されております。\n同ライセンスの下、著作権放棄された立ち絵も配布中です。\n興味がございましたら検索して頂ければ幸いです。",
+        "creators": [
+          "yuusyaasisutanto"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVMX",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "ONNX",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "0.2.0",
+        "file_size": 250659619,
+        "checksum": "7cb87a8915569f2e689106ddc4ab23f8174fae78bbbffc7733d4be2e27743e34",
+        "download_count": 106,
+        "created_at": "2025-06-01T21:51:36.393314+09:00",
+        "updated_at": "2025-07-22T22:13:35.835739+09:00"
+      }
+    ],
+    "tags": [],
+    "like_count": 1,
+    "is_liked": false,
+    "speakers": [
+      {
+        "aivm_speaker_uuid": "75448b2c-f5ab-4703-864f-517d0b4cad8d",
+        "name": "結亜ナル",
+        "icon_url": "https://assets.aivis-project.com/aivm-models/24b3c859-458b-4bfd-8d5f-737404761b19/speakers/1a3ff035-ed7d-4d92-9dcd-5ff241257473/icon.jpg",
+        "supported_languages": [
+          "ja"
+        ],
+        "local_id": 0,
+        "styles": [
+          {
+            "name": "ノーマル",
+            "icon_url": null,
+            "local_id": 0,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/24b3c859-458b-4bfd-8d5f-737404761b19/speakers/1a3ff035-ed7d-4d92-9dcd-5ff241257473/styles/4ea3ce9f-eb47-4175-95d8-e7156f50ecce/voice-samples/0.m4a",
+                "transcript": "おはようございます！現在時刻は7時30分です。今日の東京の気温は18度で、天気は雨です。10時からミーティング、午後3時に歯医者の予約があります。今日も素敵な一日になりますように。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/24b3c859-458b-4bfd-8d5f-737404761b19/speakers/1a3ff035-ed7d-4d92-9dcd-5ff241257473/styles/4ea3ce9f-eb47-4175-95d8-e7156f50ecce/voice-samples/1.m4a",
+                "transcript": "やった〜！テストでようやく満点取れた〜！めちゃくちゃ嬉しい…。　そうそう、さっき読んでたこの漫画がめっちゃ面白くてさ〜！見てよこれ！"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/24b3c859-458b-4bfd-8d5f-737404761b19/speakers/1a3ff035-ed7d-4d92-9dcd-5ff241257473/styles/4ea3ce9f-eb47-4175-95d8-e7156f50ecce/voice-samples/2.m4a",
+                "transcript": "ごめんね、今ちょっと風邪気味なんだよね…。それでもよければ会いたいけど、どう？　…………そっか…。コロナ流行ってるもんね。じゃまた今度にしようか。…元気になったらぜひご飯でも！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_at": "2025-06-01T21:51:24.433406+09:00",
+    "updated_at": "2025-07-22T22:13:35.840931+09:00"
+  },
+  {
+    "aivm_model_uuid": "5d804388-665e-4174-ab60-53d448c0d7eb",
+    "user": {
+      "handle": "wisp",
+      "name": "wisp",
+      "description": "d0x5f3759df\n\nproshutto123@proton.me",
+      "icon_url": "https://assets.aivis-project.com/account-icons/eeab3fea-36c8-4f71-ab64-8cc535054c46.jpg",
+      "account_type": "User",
+      "account_status": "Active",
+      "social_links": [
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "name": "老当主",
+    "description": "変人の音声です",
+    "detailed_description": "",
+    "category": "ExistingCharacter",
+    "voice_timbre": "ElderlyMale",
+    "visibility": "Public",
+    "is_tag_locked": false,
+    "total_download_count": 1453,
+    "model_files": [
+      {
+        "aivm_model_uuid": "5d804388-665e-4174-ab60-53d448c0d7eb",
+        "manifest_version": "1.0",
+        "name": "老当主",
+        "description": "変人の音声です",
+        "creators": [
+          "ベアトリーチェ"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVM",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "Safetensors",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 252777682,
+        "checksum": "7dfa923b2a2308556ee504c55ec15ebe37b2dbe74495ba55fd9bed587be81c99",
+        "download_count": 3,
+        "created_at": "2025-04-29T21:58:07.304531+09:00",
+        "updated_at": "2025-05-18T23:37:32.406479+09:00"
+      },
+      {
+        "aivm_model_uuid": "5d804388-665e-4174-ab60-53d448c0d7eb",
+        "manifest_version": "1.0",
+        "name": "老当主",
+        "description": "変人の音声です",
+        "creators": [
+          "ベアトリーチェ"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVMX",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "ONNX",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 251035754,
+        "checksum": "67a23f7d7721eba4ec5c8448b8d56ce6f9bfefaa2cf6a8f782183216dd15b9d0",
+        "download_count": 1450,
+        "created_at": "2025-04-29T21:58:19.618005+09:00",
+        "updated_at": "2025-07-23T15:54:01.990030+09:00"
+      }
+    ],
+    "tags": [],
+    "like_count": 15,
+    "is_liked": false,
+    "speakers": [
+      {
+        "aivm_speaker_uuid": "7f5359de-1372-42e3-973c-aebe99316598",
+        "name": "老当主",
+        "icon_url": "https://assets.aivis-project.com/aivm-models/c37656b2-882a-47e8-b4f7-8d6f9ac6e318/speakers/2cffdcd8-916c-4928-9fb0-2c47aa548c07/icon.jpg",
+        "supported_languages": [
+          "ja"
+        ],
+        "local_id": 0,
+        "styles": [
+          {
+            "name": "ノーマル",
+            "icon_url": null,
+            "local_id": 0,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/c37656b2-882a-47e8-b4f7-8d6f9ac6e318/speakers/2cffdcd8-916c-4928-9fb0-2c47aa548c07/styles/c0e757ce-8d78-4a05-807e-e1f0ca870479/voice-samples/0.m4a",
+                "transcript": "魔法の力はいつも賭けるリスクで決まる"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/c37656b2-882a-47e8-b4f7-8d6f9ac6e318/speakers/2cffdcd8-916c-4928-9fb0-2c47aa548c07/styles/c0e757ce-8d78-4a05-807e-e1f0ca870479/voice-samples/1.m4a",
+                "transcript": "お前の目には酔狂にしか見えなかったであろう我が研究の全てがこの日に結実したことを、はっきりと理解できるだろう。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/c37656b2-882a-47e8-b4f7-8d6f9ac6e318/speakers/2cffdcd8-916c-4928-9fb0-2c47aa548c07/styles/c0e757ce-8d78-4a05-807e-e1f0ca870479/voice-samples/2.m4a",
+                "transcript": "音声合成は、機械学習を活用して、テキストから人の声を再現する技術です。この技術は、言語の構造を解析し、それに基づいて音声を生成します。 この分野の最新の研究成果を使うと、より自然で表現豊かな音声の生成が可能である。深層学習の応用により、感情やアクセントを含む声質の微妙な変化も再現することが出来る。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_at": "2025-04-29T21:58:07.299088+09:00",
+    "updated_at": "2025-07-23T15:54:01.992087+09:00"
+  },
+  {
+    "aivm_model_uuid": "dbc9f6db-ac23-45d5-a1b4-4e9cb35b53e6",
+    "user": {
+      "handle": "wisp",
+      "name": "wisp",
+      "description": "d0x5f3759df\n\nproshutto123@proton.me",
+      "icon_url": "https://assets.aivis-project.com/account-icons/eeab3fea-36c8-4f71-ab64-8cc535054c46.jpg",
+      "account_type": "User",
+      "account_status": "Active",
+      "social_links": [
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "name": "異端審問官",
+    "description": "棒読みの音声です",
+    "detailed_description": "",
+    "category": "ExistingCharacter",
+    "voice_timbre": "YoungFemale",
+    "visibility": "Public",
+    "is_tag_locked": false,
+    "total_download_count": 481,
+    "model_files": [
+      {
+        "aivm_model_uuid": "dbc9f6db-ac23-45d5-a1b4-4e9cb35b53e6",
+        "manifest_version": "1.0",
+        "name": "異端審問官",
+        "description": "棒読みの音声です",
+        "creators": [
+          "アイゼルネ・ユングフラウ"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVM",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "Safetensors",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 252343698,
+        "checksum": "f655a434169259d63c9d52e892c91ce0149cad02ecc69e8f2155e84d7d0ff174",
+        "download_count": 3,
+        "created_at": "2025-04-28T00:48:56.513151+09:00",
+        "updated_at": "2025-05-18T23:38:10.894649+09:00"
+      },
+      {
+        "aivm_model_uuid": "dbc9f6db-ac23-45d5-a1b4-4e9cb35b53e6",
+        "manifest_version": "1.0",
+        "name": "異端審問官",
+        "description": "棒読みの音声です",
+        "creators": [
+          "アイゼルネ・ユングフラウ"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVMX",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "ONNX",
+        "training_epochs": null,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 250601770,
+        "checksum": "367a867fe71a6f6f92b4889219061004e827ae24a4f1b53e157c18dcccdb9614",
+        "download_count": 478,
+        "created_at": "2025-04-28T00:49:09.491616+09:00",
+        "updated_at": "2025-07-23T15:03:43.360118+09:00"
+      }
+    ],
+    "tags": [],
+    "like_count": 14,
+    "is_liked": false,
+    "speakers": [
+      {
+        "aivm_speaker_uuid": "7e10b701-2bcd-4839-bea9-5459f0af2039",
+        "name": "異端審問官",
+        "icon_url": "https://assets.aivis-project.com/aivm-models/fb6fca00-9d5b-4967-8814-7b89e55cb89f/speakers/1c9c102e-984c-4425-af71-e021c059d4bb/icon.jpg",
+        "supported_languages": [
+          "ja"
+        ],
+        "local_id": 0,
+        "styles": [
+          {
+            "name": "ノーマル",
+            "icon_url": null,
+            "local_id": 0,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/fb6fca00-9d5b-4967-8814-7b89e55cb89f/speakers/1c9c102e-984c-4425-af71-e021c059d4bb/styles/1f4a6870-a843-40f3-b0ab-7c12f74c7b1d/voice-samples/0.m4a",
+                "transcript": "子供なノデ、甘くないと駄目デス"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/fb6fca00-9d5b-4967-8814-7b89e55cb89f/speakers/1c9c102e-984c-4425-af71-e021c059d4bb/styles/1f4a6870-a843-40f3-b0ab-7c12f74c7b1d/voice-samples/1.m4a",
+                "transcript": "大法院の見解をご希望でしたら、法院規定に従いご申請をお願い致しマス"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/fb6fca00-9d5b-4967-8814-7b89e55cb89f/speakers/1c9c102e-984c-4425-af71-e021c059d4bb/styles/1f4a6870-a843-40f3-b0ab-7c12f74c7b1d/voice-samples/2.m4a",
+                "transcript": "音声合成は、機械学習を活用して、テキストから人の声を再現する技術です。この技術は、言語の構造を解析し、それに基づいて音声を生成します。 この分野の最新の研究成果を使うと、より自然で表現豊かな音声の生成が可能である。深層学習の応用により、感情やアクセントを含む声質の微妙な変化も再現することが出来る。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_at": "2025-04-28T00:48:56.506319+09:00",
+    "updated_at": "2025-07-23T15:03:43.361615+09:00"
+  },
+  {
+    "aivm_model_uuid": "7fc08a41-b64d-456d-8b22-8e1284674775",
+    "user": {
+      "handle": "zgock999",
+      "name": "ずごっく",
+      "description": "OSS界隈に生息\nStyle-Bert-VITS2版の音声は以下に置いてあります（Aivis化してないのもあり）\nhttps://huggingface.co/zgock",
+      "icon_url": "https://assets.aivis-project.com/account-icons/default.png",
+      "account_type": "User",
+      "account_status": "Active",
+      "social_links": []
+    },
+    "name": "zonoko",
+    "description": "OpenGameArtのCC0英語ボイスから音声クローンツールZonosを使用して生成した日本語ボイスを学習させたものです。\n元ボイスのライセンスを継承してcc0とします\n",
+    "detailed_description": "",
+    "category": "OriginalCharacter",
+    "voice_timbre": "YouthfulFemale",
+    "visibility": "Public",
+    "is_tag_locked": false,
+    "total_download_count": 1082,
+    "model_files": [
+      {
+        "aivm_model_uuid": "7fc08a41-b64d-456d-8b22-8e1284674775",
+        "manifest_version": "1.0",
+        "name": "zonoko",
+        "description": "OpenGameArtのCC0英語ボイスから音声クローンツールZonosを使用して生成した日本語ボイスを学習させたものです。\n元ボイスのライセンスを継承してcc0とします\n",
+        "creators": [
+          "zgock"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVM",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "Safetensors",
+        "training_epochs": 100,
+        "training_steps": 4300,
+        "version": "1.0.0",
+        "file_size": 262021476,
+        "checksum": "e0bba62c0e3786a096199ea1c48087c23e7cccc75d7c3a6df9cc87833f791cf2",
+        "download_count": 13,
+        "created_at": "2025-02-18T02:04:57.798461+09:00",
+        "updated_at": "2025-07-19T01:37:00.193833+09:00"
+      },
+      {
+        "aivm_model_uuid": "7fc08a41-b64d-456d-8b22-8e1284674775",
+        "manifest_version": "1.0",
+        "name": "zonoko",
+        "description": "OpenGameArtのCC0英語ボイスから音声クローンツールZonosを使用して生成した日本語ボイスを学習させたものです。\n元ボイスのライセンスを継承してcc0とします\n",
+        "creators": [
+          "zgock"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVMX",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "ONNX",
+        "training_epochs": 100,
+        "training_steps": 4300,
+        "version": "1.0.0",
+        "file_size": 260287970,
+        "checksum": "cc976317573f7df001d5a8fed5f8d1e103a03c8f42d8d406e4507a315f6314c2",
+        "download_count": 1069,
+        "created_at": "2025-02-18T02:05:05.813819+09:00",
+        "updated_at": "2025-07-23T15:57:36.246183+09:00"
+      }
+    ],
+    "tags": [],
+    "like_count": 20,
+    "is_liked": false,
+    "speakers": [
+      {
+        "aivm_speaker_uuid": "8e2dfde9-a155-4bd8-b451-80832ad5e8ac",
+        "name": "zonoko",
+        "icon_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/icon.jpg",
+        "supported_languages": [
+          "ja"
+        ],
+        "local_id": 0,
+        "styles": [
+          {
+            "name": "ノーマル",
+            "icon_url": null,
+            "local_id": 0,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/cd8843c2-1458-45cc-8429-cd2c1b8d7f4a/voice-samples/0.wav",
+                "transcript": "こんにちは、初めまして。あなたの名前はなんていうの？"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/cd8843c2-1458-45cc-8429-cd2c1b8d7f4a/voice-samples/1.wav",
+                "transcript": "どうして私の意見を無視するの？許せない！ムカつく！あんたなんか死ねばいいのに。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/cd8843c2-1458-45cc-8429-cd2c1b8d7f4a/voice-samples/2.wav",
+                "transcript": "あなたがいなくなって、私は一人になっちゃって、泣いちゃいそうなほど悲しいです。"
+              }
+            ]
+          },
+          {
+            "name": "A",
+            "icon_url": null,
+            "local_id": 1,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/6c5c61f5-6433-4341-a762-f1958058ea02/voice-samples/0.wav",
+                "transcript": "こんにちは、初めまして。あなたの名前はなんていうの？"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/6c5c61f5-6433-4341-a762-f1958058ea02/voice-samples/1.wav",
+                "transcript": "どうして私の意見を無視するの？許せない！ムカつく！あんたなんか死ねばいいのに。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/6c5c61f5-6433-4341-a762-f1958058ea02/voice-samples/2.wav",
+                "transcript": "あなたがいなくなって、私は一人になっちゃって、泣いちゃいそうなほど悲しいです。"
+              }
+            ]
+          },
+          {
+            "name": "B",
+            "icon_url": null,
+            "local_id": 2,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/71cb2e38-4dac-4385-a9a4-dde1c1fa974f/voice-samples/0.wav",
+                "transcript": "こんにちは、初めまして。あなたの名前はなんていうの？"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/71cb2e38-4dac-4385-a9a4-dde1c1fa974f/voice-samples/1.wav",
+                "transcript": "どうして私の意見を無視するの？許せない！ムカつく！あんたなんか死ねばいいのに。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/71cb2e38-4dac-4385-a9a4-dde1c1fa974f/voice-samples/2.wav",
+                "transcript": "あなたがいなくなって、私は一人になっちゃって、泣いちゃいそうなほど悲しいです。"
+              }
+            ]
+          },
+          {
+            "name": "C",
+            "icon_url": null,
+            "local_id": 3,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/c919f3ad-31d1-45da-90bb-a288d387eb6b/voice-samples/0.wav",
+                "transcript": "こんにちは、初めまして。あなたの名前はなんていうの？"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/c919f3ad-31d1-45da-90bb-a288d387eb6b/voice-samples/1.wav",
+                "transcript": "どうして私の意見を無視するの？許せない！ムカつく！あんたなんか死ねばいいのに。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/c919f3ad-31d1-45da-90bb-a288d387eb6b/voice-samples/2.wav",
+                "transcript": "あなたがいなくなって、私は一人になっちゃって、泣いちゃいそうなほど悲しいです。"
+              }
+            ]
+          },
+          {
+            "name": "D",
+            "icon_url": null,
+            "local_id": 4,
+            "voice_samples": [
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/fee6a565-acac-4be0-af30-741379ea3ea1/voice-samples/0.wav",
+                "transcript": "こんにちは、初めまして。あなたの名前はなんていうの？"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/fee6a565-acac-4be0-af30-741379ea3ea1/voice-samples/1.wav",
+                "transcript": "どうして私の意見を無視するの？許せない！ムカつく！あんたなんか死ねばいいのに。"
+              },
+              {
+                "audio_url": "https://assets.aivis-project.com/aivm-models/21c2d181-9e7f-4ab5-80c5-ec8e2e70bd91/speakers/27dceb02-55f5-46dc-9960-d77dae24028d/styles/fee6a565-acac-4be0-af30-741379ea3ea1/voice-samples/2.wav",
+                "transcript": "あなたがいなくなって、私は一人になっちゃって、泣いちゃいそうなほど悲しいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "created_at": "2025-02-18T02:04:57.792868+09:00",
+    "updated_at": "2025-07-23T15:57:36.246891+09:00"
+  },
+  {
+    "aivm_model_uuid": "a9737494-70a4-44ee-acff-ab16c87b22e2",
+    "user": {
+      "handle": "decoprokun_G",
+      "name": "decoprokun_G",
+      "description": "",
+      "icon_url": "https://assets.aivis-project.com/account-icons/default.png",
+      "account_type": "User",
+      "account_status": "Active",
+      "social_links": []
+    },
+    "name": "decoprokun_F1M1_v5",
+    "description": "jvnv_v1を元に生成",
+    "detailed_description": "",
+    "category": "OriginalCharacter",
+    "voice_timbre": "YouthfulMale",
+    "visibility": "Public",
+    "is_tag_locked": false,
+    "total_download_count": 563,
+    "model_files": [
+      {
+        "aivm_model_uuid": "a9737494-70a4-44ee-acff-ab16c87b22e2",
+        "manifest_version": "1.0",
+        "name": "decoprokun_F1M1_v5",
+        "description": "jvnv_v1を元に生成",
+        "creators": [
+          "decoprokun_G"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVM",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "Safetensors",
+        "training_epochs": 1,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 251201173,
+        "checksum": "996a615cb14cc2cadafbc9ef735f5935b1d85aacd79a55bb263e5b212ca5c1f5",
+        "download_count": 5,
+        "created_at": "2025-01-07T14:36:47.508099+09:00",
+        "updated_at": "2025-05-19T15:42:36.068933+09:00"
+      },
+      {
+        "aivm_model_uuid": "a9737494-70a4-44ee-acff-ab16c87b22e2",
+        "manifest_version": "1.0",
+        "name": "decoprokun_F1M1_v5",
+        "description": "jvnv_v1を元に生成",
+        "creators": [
+          "decoprokun_G"
+        ],
+        "license_type": "CC0",
+        "license_text": null,
+        "model_type": "AIVMX",
+        "model_architecture": "Style-Bert-VITS2 (JP-Extra)",
+        "model_format": "ONNX",
+        "training_epochs": 1,
+        "training_steps": null,
+        "version": "1.0.0",
+        "file_size": 250708518,
+        "checksum": "d339f952c81e9f9c6a401c47cd86606fb9d4587dff9cb18a9883e6ac7f60bc1a",
+        "download_count": 558,
+        "created_at": "2025-01-07T14:36:53.686169+09:00",
+        "updated_at": "2025-07-23T12:01:21.866117+09:00"
+      }
+    ],
+    "tags": [],
+    "like_count": 1,
+    "is_liked": false,
+    "speakers": [
+      {
+        "aivm_speaker_uuid": "f505d7b5-21ab-488c-a5b9-d4d985f3216f",
+        "name": "decoprokun_F1M1_v5",
+        "icon_url": "https://assets.aivis-project.com/aivm-models/9b2fb403-ec05-4acd-9193-b1785f2d1457/speakers/13bf4546-4485-4e3c-b8ab-f14d5e0b35e8/icon.jpg",
+        "supported_languages": [
+          "ja"
+        ],
+        "local_id": 0,
+        "styles": [
+          {
+            "name": "ノーマル",
+            "icon_url": null,
+            "local_id": 0,
+            "voice_samples": []
+          }
+        ]
+      }
+    ],
+    "created_at": "2025-01-07T14:36:47.502885+09:00",
+    "updated_at": "2025-07-23T12:01:21.866891+09:00"
+  }
+]

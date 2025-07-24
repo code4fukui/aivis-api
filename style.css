@@ -1,0 +1,79 @@
+body {
+  font-family: "Hiragino Maru Gothic ProN", "Rounded Mplus 1c", sans-serif;
+  background: #fef6f9;
+  color: #444;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #e75480;
+  margin-bottom: 1em;
+}
+
+main {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2em;
+  display: inline-block;
+  text-align: left;
+  max-width: 600px;
+  width: 90%;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 2px solid #ffd1dc;
+  border-radius: 8px;
+  background: #fff0f5;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+button {
+  font-size: 1em;
+  background: #ffd1dc;
+  border: none;
+  border-radius: 12px;
+  padding: 0.6em 1.2em;
+  margin: 0.3em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #ffb6c1;
+}
+
+button:active {
+  background: #ff9aa2;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #888;
+}
+
+footer a {
+  color: #e75480;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#div_model {
+  margin-bottom: 1em;
+}
