@@ -1,9 +1,8 @@
 # aivis-api
 
-A JavaScript library to use the "Aivis Cloud API" voice-to-speech API from the [Aivis Project](https://aivis-project.com/).
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## Demo
-[demo](https://code4fukui.github.io/aivis-api/)
+A JavaScript library to use the "Aivis Cloud API" voice-to-speech API from the [Aivis Project](https://aivis-project.com/).
 
 ## Features
 - Use the Aivis Cloud API for text-to-speech in JavaScript
