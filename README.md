@@ -1,14 +1,20 @@
 # aivis-api
 
-- [Aivis Project](https://aivis-project.com/)の音声読み上げAPI「[Aivis Cloud API](https://hub.aivis-project.com/cloud-api/)」をJavaScriptで使うライブラリです
+A JavaScript library to use the "Aivis Cloud API" voice-to-speech API from the [Aivis Project](https://aivis-project.com/).
 
-- [demo](https://code4fukui.github.io/aivis-api/)
+## Demo
+[demo](https://code4fukui.github.io/aivis-api/)
 
-## usage
+## Features
+- Use the Aivis Cloud API for text-to-speech in JavaScript
+- Supports streaming audio playback
 
-- get a apikey from [Aivis Cloud API](https://hub.aivis-project.com/cloud-api/)
+## Requirements
+Get an API key from the [Aivis Cloud API](https://hub.aivis-project.com/cloud-api/).
 
-### for browsers
+## Usage
+
+### For browsers
 
 ```js
 import { speech } from "https://code4fukui.github.io/aivis-api/AivisSpeech.js";
@@ -18,7 +24,7 @@ import { speech } from "https://code4fukui.github.io/aivis-api/AivisSpeech.js";
 const audio = await speech(text, apikey); // start streaming
 ```
 
-### for Deno
+### For Deno
 
 ```js
 import { fetchAudio } from "https://code4fukui.github.io/aivis-api/AivisSpeech.js";
@@ -29,3 +35,6 @@ const res = await fetchAudio(text, apikey);
 const bin = await res.bytes();
 await Deno.writeFile("test.mp3", bin);
 ```
+
+## License
+MIT
