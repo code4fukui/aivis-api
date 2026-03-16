@@ -36,4 +36,4 @@ await Deno.writeFile("test.mp3", bin);
 ```
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
